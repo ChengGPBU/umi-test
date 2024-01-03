@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/chengguang/.nvm/versions/node/v16.20.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/chengguang/.nvm/versions/node/v16.20.0/bin:/Users/chengguang/.gem/ruby/2.6.0/bin:/Users/chengguang/.fastlane/bin/fastlane_lib:/Users/chengguang/.fastlane/bin:/bin:/opt/homebrew/bin:/Users/chengguang/.oh-my-zsh/custom/plugins/git-open:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/chengguang/.gem/ruby/2.6.0/bin:/Users/chengguang/.fastlane/bin/fastlane_lib:/Users/chengguang/.fastlane/bin:/opt/homebrew/bin:/Users/chengguang/.oh-my-zsh/custom/plugins/git-open:.:/Users/chengguang/Library/Android/sdk/emulator:/Users/chengguang/Library/Android/sdk/tools:/Users/chengguang/Library/Android/sdk/tools/bin:/Users/chengguang/Library/Android/sdk/platform-tools:/Users/chengguang/Library/Android/sdk/ndk-bundle:.:/Users/chengguang/Library/Android/sdk/emulator:/Users/chengguang/Library/Android/sdk/tools:/Users/chengguang/Library/Android/sdk/tools/bin:/Users/chengguang/Library/Android/sdk/platform-tools:/Users/chengguang/Library/Android/sdk/ndk-bundle
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.20.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/chengguang/study/umi-test/node_modules/antd/node_modules'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "chengguang <chengguang@myai.tech>",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "format": "prettier --cache --write .",
+      "prepare": "husky install",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.2.5",
+      "@ant-design/pro-components": "^2.6.13",
+      "@umijs/max": "^4.0.76",
+      "antd": "^5.8.4"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.21",
+      "@types/react-dom": "^18.2.7",
+      "husky": "^8.0.3",
+      "lint-staged": "^14.0.1",
+      "prettier": "^3.0.2",
+      "prettier-plugin-organize-imports": "^3.2.3",
+      "prettier-plugin-packagejson": "^2.4.5",
+      "typescript": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
